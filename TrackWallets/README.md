@@ -3,7 +3,7 @@
 This project is interesting, I tried looking for scammers who try and trick innocent users to deploy malicious contracts. 
 This code essentially tracks their wallet addresses' transactions as well as tally up the total account balance.
 
-This project tracks wallets and transactions. If the transaction is made to a contract, it enumerates the function and its arguments.
+This project tracks wallets and transactions using the Etherscan V2 API. If the transaction is made to a contract, it enumerates the function and its arguments. The `sumAccounts` function sums both normal and internal transactions with direction-aware accounting (inflows added, outflows subtracted).
 
 Note: Still work in progress, I have hard-coded addresses.
 
